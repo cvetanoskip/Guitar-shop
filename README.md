@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Guitar Shop App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created as part of my internship to practice and demonstrate skills in React, GraphQL, and basic front-end development. The application allows users to browse guitar brands, see available models for each brand, and view detailed information about individual guitars. The data is fetched from a GraphQL backend using Apollo Client.
 
-## Available Scripts
+## How to Set Up and Run the Project
 
-In the project directory, you can run:
+To run the project on your machine, make sure you have Node.js installed (preferably version 16 or higher).
 
-### `npm start`
+1. Clone the repository to your local machine:
+   git clone https://github.com/cvetanoskip/Guitar-shop.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then navigate into the project folder:
+cd Guitar-shop .
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install dependencies:
+   npm install
+   This will install all required packages listed in `package.json`.
+3. Start the development server:
+   npm start .
+   This will start the app in development mode. You can open it in your browser at:
+   http://localhost:3000
+4. Making changes:  
+   When you save changes to the code, the browser will automatically reload the page. Any build errors will appear in the console.
 
-### `npm test`
+5. Building for production:  
+    To create an optimized build for deployment, run:
+   npm run build .
+   This will generate a `build` folder with the production version of the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Overview
 
-### `npm run build`
+The application has three main pages:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Brands Page** – Lists guitar brands with their logos and some basic information.
+- **Models Page** – Shows all models for a selected brand, with search, filter, and sort options. Uses infinite scroll to load more models.
+- **Guitar Details Page** – Displays specifications and musician information for a selected guitar.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project also includes a footer with navigation links and social media icons. There is a basic language switcher to toggle between English and another language.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Notes for Reviewers
 
-### `npm run eject`
+This project is intended as a learning exercise. The goal was to understand how to work with:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React components and state management
+- React Router for navigation between pages
+- Apollo Client for querying a GraphQL API
+- Filtering, searching, and sorting data on the client side
+- Implementing infinite scrolling for loading more items dynamically
+- Structuring a React project in a way that is easy to follow
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+It is not a production-ready application, but it covers the core concepts I have been learning during my internship.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Petar Cvetanoski
+pcvetanoski@yahoo.com
