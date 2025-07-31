@@ -1,6 +1,6 @@
 # Guitar Shop App
 
-This project was created as part of my internship to practice and demonstrate skills in React, GraphQL, and basic front-end development. The application allows users to browse guitar brands, see available models for each brand, and view detailed information about individual guitars. The data is fetched from a GraphQL backend using Apollo Client.
+This project was created as part of my application for internship to demonstrate skills in React, GraphQL, and basic front-end development. The application allows users to browse guitar brands, see available models for each brand, and view detailed information about individual guitars. The data is fetched from a GraphQL backend using Apollo Client.
 
 ## How to Set Up and Run the Project
 
@@ -35,7 +35,7 @@ The application has three main pages:
 - **Models Page** – Shows all models for a selected brand, with search, filter, and sort options. Uses infinite scroll to load more models.
 - **Guitar Details Page** – Displays specifications and musician information for a selected guitar.
 
-The project also includes a footer with navigation links and social media icons. There is a basic language switcher to toggle between English and another language.
+The project also includes a footer with navigation links and social media icons.
 
 ## Notes for Reviewers
 
@@ -47,8 +47,6 @@ This project is intended as a learning exercise. The goal was to understand how 
 - Filtering, searching, and sorting data on the client side
 - Implementing infinite scrolling for loading more items dynamically
 - Structuring a React project in a way that is easy to follow
-
-It is not a production-ready application, but it covers the core concepts I have been learning during my internship.
 
 ## Author
 
