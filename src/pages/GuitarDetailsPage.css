@@ -1,0 +1,171 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background: white;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.backLink {
+  color: #ff6f00;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.titlePart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  max-width: 65%;
+}
+
+.trademark {
+  font-size: 18px;
+  vertical-align: super;
+  margin-left: 4px;
+  color: #FF6F00;
+}
+
+.imageWrapper {
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(135deg, #FF6F00 0%, #FFAB40 100%);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageWrapper img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.tab {
+  margin-right: 40px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  color: #999;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  color: #FF6F00;
+  border-bottom-color: #FF6F00;
+}
+
+.content {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #444;
+}
+
+.specList {
+  margin-top: 15px;
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+.footer {
+  margin-top: auto;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+  font-size: 12px;
+  color: #aaa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerSection {
+  display: flex;
+  gap: 20px;
+}
+
+
+
+.musiciansContainer {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 100px; 
+}
+
+.musicianCard {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 400px; 
+}
+
+.musicianCard img {
+  width: 380px; 
+  height: 380px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.musicianPagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.musicianPagination button {
+  padding: 6px 12px;
+  margin: 0 4px;
+  background: #ccc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.musicianPagination button.active {
+  background: #FF6F00;
+  color: white;
+}
+.socialIcons a {
+  font-size: 18px;
+  margin-right: 12px;
+  color: #555;
+  text-decoration: none;
+}
+
+.socialIcons a:hover {
+  color: #ff6f00;
+}
